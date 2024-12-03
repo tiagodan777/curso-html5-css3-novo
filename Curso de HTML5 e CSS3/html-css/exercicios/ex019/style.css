@@ -6,16 +6,32 @@ body {
 }
 
 h1 {
-    color: rgb(47, 122, 22);
+    color: #1E5A29;
 }
 
 h1#principal {
     text-align: center;
-    background-color: green;
+    /*background-color: #297C38;*/
     color: white;
 }
 
 h2 {
     color: rgb(35, 91, 31);
+}
+
+.basico {
+    color: rgb(53, 137, 47);
+}
+
+.intermediario {
+    color: rgb(143, 138, 50);
+}
+
+.avancado {
+    color: rgb(159, 54, 54);
+}
+
+.destaque {
+    background-color: rgba(188, 188, 103, 0.502);
 }
 
