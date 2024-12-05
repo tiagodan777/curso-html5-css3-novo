@@ -42,7 +42,8 @@ h2 {
     font-size: 1.5em;
     font-family: 'android', sans-serif;
     color: rgb(7, 64, 25);
-    background-color:  rgb(165, 235, 184);
+    background-image: linear-gradient(to right, rgb(165, 235, 184), white);
+    padding: 2px 2px 2px 10px;
 }
 
 p {
@@ -171,4 +172,5 @@ footer {
 
 footer > p {
     text-align: center;
+    margin: 0px;
 }
