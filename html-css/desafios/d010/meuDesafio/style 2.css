@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Jaro:opsz@6..72&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('../pacote-projeto-d010/fontes/idroid.otf');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 234, 202);
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(53, 194, 121), rgb(7, 64, 25));
+    margin: -22px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    padding: 30px 30px 5px 0px;
+}
+
+header > h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Jaro', sans-serif;
+    font-size: 3em;
+    margin: 0px;
+}
+
+h1#principal {
+    font-size: 2em;
+    font-family: 'android', sans-serif;
+    color:  rgb(7, 64, 25);
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'android', sans-serif;
+    color: rgb(7, 64, 25);
+    background-image: linear-gradient(to right, rgb(165, 235, 184), white);
+    padding: 2px 2px 2px 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 30px;
+}
+
+nav {
+    text-align: left;
+    
+    margin: 0px;
+}
+
+nav > ul {
+    list-style: none;
+    margin: 3px 3px 3px 6px;
+    padding: 0px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+nav > ul > li > a {
+    color: rgb(176, 233, 204);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > ul > li:hover {
+    transition: 1s;
+    background-color: rgb(58, 156, 111);
+}
+
+nav > ul > li:hover > a {
+    color: rgb(55, 77, 66);
+}
+
+main {
+    margin: 0px auto 0px auto;
+    width: 85%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.445);
+} 
+
+img {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    border-top: 20px;
+    border-right: 40px;
+    border-bottom: 20px;
+    border-left: 40px;
+    border-style: solid;
+    border-color: rgb(7, 64, 25);
+}
+
+.destaque {
+    color: rgb(21, 141, 59);
+    font-weight: bolder;
+}
+
+.especial {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(151, 240, 174);
+    color: rgb(7, 44, 17);
+    padding: 3px;
+}
+
+.especial::after {
+    content: ' 🔗';
+}
+
+.especial:hover {
+    text-decoration: underline;
+}
+
+aside {
+    background-color: rgb(165, 235, 184);
+    border-radius: 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+aside > h3 {
+    background-color: rgb(9, 91, 35);
+    color: white;
+    padding: 15px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > article {
+    padding: 10px;
+}
+
+aside > article > ul {
+    list-style: none;
+    display: inline-block;
+    margin-right: 200px;
+}
+
+aside > article > ul > li::before {
+    content: '✔️ ';
+    text-decoration: none;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: rgb(9, 91, 35);
+    font-weight: bold;
+}
+
+footer > p {
+    text-align: center;
+    margin: 0px;
+}
