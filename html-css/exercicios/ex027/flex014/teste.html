@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Flexbox</title>
+    <style>
+        div {
+            display: flex;
+            flex-flow: row wrap-reverse;
+            justify-content: space-between;
+        }
+
+        p {
+            flex: 1 1 500px;
+            border:  1px solid black;
+        }
+
+        .diferente {
+            flex: 1 1 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam atque, facilis aut est, tenetur voluptatibus voluptas voluptatum voluptates error laudantium sequi, quam fugit expedita porro. Perspiciatis ab at quidem vero? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi excepturi aut in id. Possimus sunt accusantium sequi dolore quas nisi aliquid fuga porro obcaecati, iste ullam similique doloribus qui consequatur?</p>
+        <p></p>
+        <p class="diferente">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquid placeat eveniet quis, maiores veniam magni id molestias consequatur consequuntur reiciendis, eos, deserunt dolorem minima quibusdam explicabo amet et nisi!</p>
+    </div>
+</body>
+</html>
